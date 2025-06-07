@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "study-ai"
+version = "0.1.0"
+description = ""
+authors = ["Yasuhiro Ito <boccochan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+requests = "^2.32.3"
+pandas = "^2.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.0"
+black = "^25.1.0"
+isort = "^6.0.1"
+ruff = "^0.11.13"
+ruff-lsp = "^0.0.62"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
